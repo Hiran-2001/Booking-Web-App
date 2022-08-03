@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import {BsPersonCircle,BsFillBookmarkFill} from 'react-icons/bs'
 import Logo from "../../Images/Capture.PNG";
 import {MdHotel ,MdOutlineAirplanemodeActive} from "react-icons/md"
 import {FaBusAlt,FaTrain,FaTaxi} from "react-icons/fa"
@@ -18,8 +19,8 @@ function NavBar() {
               <div id="flight-icon">
                 <li class="nav-item">
                   <MdOutlineAirplanemodeActive/>
-                  <a class="nav-link active" aria-current="page" href="#">
-                    Home
+                  <a id="flight" class="nav-link active" aria-current="page" href="#">
+                    Flight
                   </a>
                 </li>
               </div>
@@ -27,17 +28,16 @@ function NavBar() {
               <div id="hotel-stay">
                 <li class="nav-item">
                 <MdHotel/>
-                  <a class="nav-link active" href="#">
-                    Features
-                  </a>
+                  <a id="hotel" class="nav-link active" href="#">
+                    Hotels                  </a>
                 </li>
               </div>
 
               <div id="bus-icon">
                 <li class="nav-item">
                 <FaBusAlt/>
-                  <a class="nav-link active" href="#">
-                    Pricing
+                  <a id="bus"  class="nav-link active" href="#">
+                    Bus
                   </a>
                 </li>
               </div>
@@ -45,8 +45,8 @@ function NavBar() {
               <div id="train-icon">
                 <li class="nav-item">
                 <FaTrain/>
-                  <a class="nav-link active" href="#">
-                    Pricing
+                  <a id="train" class="nav-link active" href="#">
+                    Train
                   </a>
                 </li>
               </div>
@@ -54,8 +54,26 @@ function NavBar() {
               <div id="cab-icon">
                 <li class="nav-item">
                 <FaTaxi/>
-                  <a class="nav-link active" href="#">
-                    Pricing
+                  <a id="cab"  class="nav-link active" href="#">
+                    cab
+                  </a>
+                </li>
+              </div>
+
+              <div id="login-div">
+                     {/* <BsPersonCircle id="login-icon"/> */}
+                <li class="nav-item">
+                  <a id="login"  class="nav-link active" href="#">
+                    Login
+                  </a>
+                </li>
+              </div>
+
+              <div id="my-booking">
+                <li class="nav-item">
+                {/* <BsFillBookmarkFill id="booking-icon"/> */}
+                  <a id="booking"  class="nav-link active" href="#">
+                    My Bookings
                   </a>
                 </li>
               </div>

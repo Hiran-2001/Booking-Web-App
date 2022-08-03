@@ -20,30 +20,95 @@
 #flight-icon:hover {
   color: red;
 }
+
+#flight:hover {
+  color: red;
+}
+
 #bus-icon {
   /* background-color: blue; */
-  margin-left: 15px;
+  margin-left: 25px;
 }
 #bus-icon:hover {
   color: red;
 }
+#bus:hover {
+  color: red;
+}
+
 #train-icon {
   /* background-color: blue; */
-  margin-left: 15px;
+  margin-left: 25px;
 }
 #train-icon:hover {
-color: red;}
+  color: red;
+}
+#train:hover {
+  color: red;
+}
 #hotel-stay {
   /* background-color: rgb(237, 21, 158); */
-  margin-left: 15px;
+  margin-left: 25px;
 }
 #hotel-stay:hover {
-color: red;
+  color: red;
+  /* border-radius: 25px;
+  border: .5px red solid; */
 }
+#hotel:hover {
+  color: red;
+}
+
+/* #flight:hover {
+  color: red;
+  } */
 #cab-icon {
   /* background-color: rgb(237, 21, 158); */
-  margin-left: 15px;
+  margin-left: 25px;
 }
-#cab-icon:hover, a:hover{ 
-color: red;
+#cab-icon:hover {
+  color: red;
+}
+#cab:hover {
+  color: red;
+}
+
+/* login */
+#login-div {
+  /* background-color: rgb(8, 0, 255); */
+  margin-left: 400px;
+  width: 100px;
+  border: 2px solid red;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  padding-left: 20px;
+  
+}
+#login{
+  color: red;
+}
+#login-icon {
+  position: relative;
+  right: 15px;
+  top: 8px;
+  height: 30px;
+  width: 30px;
+}
+#my-booking {
+  /* background-color: rgb(8, 0, 255); */
+  margin-left: 15px;
+  width: 185px;
+  border: 2px solid red;
+  height: 50px;
+  border-radius: 25px;
+}
+#booking-icon {
+  position: relative;
+  right: 60px;
+  top: 8px;
+ 
+}
+#booking{
+  color: red;
 }
