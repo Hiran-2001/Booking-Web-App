@@ -1,0 +1,49 @@
+#navbar {
+  padding-left: 100px;
+}
+#logo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+}
+#navbarNav {
+  /* background-color: red; */
+  height: 100px;
+  width: 400px;
+  display: flex;
+  margin-left: 100px;
+}
+#flight-icon {
+  /* background-color: blue; */
+  margin-left: 15px;
+}
+#flight-icon:hover {
+  color: red;
+}
+#bus-icon {
+  /* background-color: blue; */
+  margin-left: 15px;
+}
+#bus-icon:hover {
+  color: red;
+}
+#train-icon {
+  /* background-color: blue; */
+  margin-left: 15px;
+}
+#train-icon:hover {
+color: red;}
+#hotel-stay {
+  /* background-color: rgb(237, 21, 158); */
+  margin-left: 15px;
+}
+#hotel-stay:hover {
+color: red;
+}
+#cab-icon {
+  /* background-color: rgb(237, 21, 158); */
+  margin-left: 15px;
+}
+#cab-icon:hover, a:hover{ 
+color: red;
+}
