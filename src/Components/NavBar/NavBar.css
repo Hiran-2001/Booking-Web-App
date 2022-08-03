@@ -1,5 +1,5 @@
 #navbar {
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 #logo {
   height: 75px;
@@ -16,6 +16,19 @@
 #flight-icon {
   /* background-color: blue; */
   margin-left: 15px;
+  
+}
+.flightIcon ,.hotelIcon,.trainIcon{
+  margin-left: 20px;
+}
+.trainIcon,.cabIcon{
+  margin-left: 16px;
+}
+.cabIcon{
+  margin-left: 11px;
+}
+.busIcon{
+  margin-left: 12px;
 }
 #flight-icon:hover {
   color: red;
@@ -23,6 +36,9 @@
 
 #flight:hover {
   color: red;
+}
+#flight{
+  margin-right: 20px;
 }
 
 #bus-icon {

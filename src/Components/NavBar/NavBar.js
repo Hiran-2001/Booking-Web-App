@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 import "./NavBar.css";
 import {BsPersonCircle,BsFillBookmarkFill} from 'react-icons/bs'
 import Logo from "../../Images/Capture.PNG";
@@ -18,54 +19,52 @@ function NavBar() {
 
               <div id="flight-icon">
                 <li class="nav-item">
-                  <MdOutlineAirplanemodeActive/>
-                  <a id="flight" class="nav-link active" aria-current="page" href="#">
-                    Flight
-                  </a>
+                  <MdOutlineAirplanemodeActive className="flightIcon" />
+                  <Link id="flight" class="nav-link active" to="/flight">Flight</Link>
                 </li>
               </div>
 
               <div id="hotel-stay">
                 <li class="nav-item">
-                <MdHotel/>
-                  <a id="hotel" class="nav-link active" href="#">
-                    Hotels                  </a>
+                <MdHotel className="hotelIcon"/>
+                <Link id="hotel" class="nav-link active" to="/hotel">Hotel</Link>
+
+                  
                 </li>
               </div>
 
               <div id="bus-icon">
                 <li class="nav-item">
-                <FaBusAlt/>
-                  <a id="bus"  class="nav-link active" href="#">
-                    Bus
-                  </a>
+                <FaBusAlt className="busIcon"/>
+                <Link id="bus" class="nav-link active" to="/bus">Bus</Link>
+
+                  
                 </li>
               </div>
 
               <div id="train-icon">
                 <li class="nav-item">
-                <FaTrain/>
-                  <a id="train" class="nav-link active" href="#">
-                    Train
-                  </a>
+                <FaTrain className="trainIcon"/>
+                <Link id="train" class="nav-link active" to="/train">Train</Link>
+
+                  
                 </li>
               </div>
 
               <div id="cab-icon">
                 <li class="nav-item">
-                <FaTaxi/>
-                  <a id="cab"  class="nav-link active" href="#">
-                    cab
-                  </a>
+                <FaTaxi className="cabIcon"/>
+                <Link id="cab" class="nav-link active" to="/cab">Cab</Link>
+
+                  
                 </li>
               </div>
 
               <div id="login-div">
                      {/* <BsPersonCircle id="login-icon"/> */}
                 <li class="nav-item">
-                  <a id="login"  class="nav-link active" href="#">
-                    Login
-                  </a>
+                <Link id="login" class="nav-link active" to="/login">Login</Link>
+                  
                 </li>
               </div>
 
@@ -82,6 +81,7 @@ function NavBar() {
           </div>
         </div>
       </nav>
+      <Outlet/>
     </div>
   );
 }
