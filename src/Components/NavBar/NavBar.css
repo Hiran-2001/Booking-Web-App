@@ -19,16 +19,16 @@
   
 }
 .flightIcon ,.hotelIcon,.trainIcon{
-  margin-left: 20px;
+  margin-right: 15px;
 }
 .trainIcon,.cabIcon{
-  margin-left: 16px;
+  margin-right: 15px;
 }
 .cabIcon{
   margin-left: 11px;
 }
 .busIcon{
-  margin-left: 12px;
+  margin-right: 15px;
 }
 #flight-icon:hover {
   color: red;
@@ -38,7 +38,7 @@
   color: red;
 }
 #flight{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 #bus-icon {
