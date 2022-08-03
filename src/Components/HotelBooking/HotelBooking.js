@@ -4,7 +4,7 @@ function HotelBooking() {
   return (
     <div className="hotel-booking-div">
       <div className="hotel-booking-container">
-        <h5 className="hotel-container-title">book hotel ticket</h5>
+        <h5 className="hotel-container-title">Book on India's Largest Hotel Network</h5>
         <div className="trip-selection">
           <h6>trip</h6>
         </div>

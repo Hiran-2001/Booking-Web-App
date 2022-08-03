@@ -4,7 +4,7 @@ function CarBooking() {
   return (
     <div className="car-booking-div">
       <div className="car-booking-container">
-        <h5 className="car-container-title">book car</h5>
+        <h5 className="car-container-title">Book Outstation, Local Cabs</h5>
         <div className="trip-selection">
           <h6>trip</h6>
         </div>
