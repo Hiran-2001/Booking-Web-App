@@ -77,6 +77,12 @@
   width: 200px;
   margin-left: 20px;
 }
+.depart-from-place{
+  /* background-color: red; */
+}
+.going-to-place{
+  /* background-color: blue; */
+}
 .place-shift-area {
   /* background-color: red; */
   width: 100px;
@@ -101,6 +107,7 @@
   width: 200px;
   margin-right: 20px;
   text-align: end;
+  padding-top: 5px;
 }
 
 
@@ -127,15 +134,41 @@
 }
 .flight-travellers-economy {
   background-color: rgb(0, 255, 225);
-  height: 60px;
+  height: 160px;
+  padding-left: 20px;
+  margin-top: 20px;
 }
-
+.traveller-selection-div{
+  background-color: violet;
+  height: 100px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.adult-selection{
+  background-color: green;
+  height: 100px;
+  width: 110px;
+}
+.plus-minus-section{
+display: flex;
+}
+.child-selection{
+  background-color: red;
+  height: 100px;
+  width: 110px;
+}
+.infant-selection{
+  background-color: orange;
+  height: 100px;
+  width: 110px;
+}
 
                     /* flight search button div style */
 .search-flight-div{
     /* background-color: blue; */
     height: 150px;
-    margin-top: 96px;
+    margin-top: 0px;
     border-radius: 0px 0px 10px 10px;
     display: flex;
     justify-content: flex-end;
