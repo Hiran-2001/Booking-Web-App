@@ -16,10 +16,7 @@ function TrainTicketBooking() {
           
           <h6>date</h6>
         </div>
-        <div className="travellers-economy">
-          
-          <h6>traveller-economy</h6>
-        </div>
+       
       </div>
     </div>
   );

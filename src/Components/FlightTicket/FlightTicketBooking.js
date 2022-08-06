@@ -90,7 +90,7 @@ function FlightTicketBooking() {
 
         <div className="search-flight-div">
           <button id="search-btn" type="button" class="btn btn-danger">
-            Search Flights <FiArrowRight />{" "}
+            Search Flights <FiArrowRight />
           </button>
         </div>
       </div>
