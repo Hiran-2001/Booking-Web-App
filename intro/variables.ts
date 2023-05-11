@@ -1,9 +1,10 @@
-let name:string ;
- 
-function getname(){
-    return "false";
-}
 
-name =  getname()
+let name : string = "Hiran"
+
+name = "swathy"
+
+
+console.log(name);
+
 
 export {}

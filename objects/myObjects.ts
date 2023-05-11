@@ -1,23 +1,45 @@
-function createUser({ name: string, isPaid: boolean }) {}
+// function createUsers({ name: string, isPaid: boolean }) {}
 
-function createCourse(): { name: string; price: number; haveCoupon: boolean } {
-  return { name: "reactJS", price: 49, haveCoupon: false };
-}
+// function createCourses(): { name: string; price: number; haveCoupon: boolean } {
+//   return { name: "reactJS", price: 49, haveCoupon: false };
+// }
 
-console.log(createCourse());
+// console.log(createCourse());
 
-let newUser = { name: "Hiran", isPaid: true, email: "h2h@gmail.com" };
+// let newUserData = { name: "Hiran", isPaid: true, email: "h2h@gmail.com" };
 
-createUser(newUser);
+// createUser(newUser);
+
+// type user = {
+//   name: string;
+//   age: number;
+//   isMarried: boolean;
+// };
+
+// function userFunc(user: user): user {
+//   return { name: user.name, age: user.age, isMarried: user.isMarried };
+// }
+
+// console.log(userFun({ name: "Hiran", age: 22, isMarried: true }));
+
 
 type user = {
-  name: string;
-  age: number;
-  isMarried: boolean;
-};
-
-function userFun(user: user): user {
-  return { name: user.name, age: user.age, isMarried: user.isMarried };
+   readonly _id : string,
+    name:string,
+    age:number,
+    accountNumber:number
 }
 
-console.log(userFun({ name: "Hiran", age: 22, isMarried: true }));
+let newUser : user =  {
+    _id :"165546",
+    name : "hiran",
+    age:21,
+    accountNumber:65498465116544964
+}
+
+// newUser._id = 879498498
+
+console.log(newUser);
+
+
+export {}
